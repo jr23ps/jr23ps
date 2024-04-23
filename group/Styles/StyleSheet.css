@@ -1,0 +1,186 @@
+﻿﻿body {
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+    background-image: url('https://www.gregd.fyi/Images/dino-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-size: 18px;
+    padding: 0;
+    line-height: 25px;
+}
+
+.info p:first-of-type,
+.info p:last-of-type {
+    margin-left: 40px;
+}
+
+.container {
+    max-width: 65%;
+    margin: 50px auto;
+    padding: 20px;
+    background-image: radial-gradient(circle 1224px at 10.6% 8.8%, rgb(85 170 227 / 58%) 0%, rgb(40 71 99 / 89%) 100.2%);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.info {
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background-image: radial-gradient(circle 1224px at 10.6% 8.8%, rgb(88 185 65 / 70%) 0%, rgb(104 153 78 / 61%) 100.2%);
+    border: 3px solid rgb(249 249 249 / 71%);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 150px auto 50px auto;
+    padding: 20px;
+    background-image: linear-gradient( 109.6deg, rgba(223,234,247,1) 11.2%, rgba(244,248,252,1) 91.1% );
+    border: 3px solid rgb(249 249 249 / 71%);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.header {
+    max-width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px solid rgb(249 249 249 / 71%);
+    background-image: linear-gradient(181deg, rgb(159 159 159 / 47%) -1.7%, rgb(0 0 0 / 30%) 85.6%);
+    border-radius: 8px;
+    box-shadow: rgb(0 0 0 / 21%) 0px 3px 4px 2px;
+}
+
+img {
+    max-width: 80%;
+    align-content: center;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 0 2px 3px #000000a8;
+}
+
+h2 {
+    color: white;
+    text-shadow: 0 2px 3px #000000a8;
+}
+
+h4 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+li {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.quiz-bttns {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.quiz-bttn, .dino-bttn {
+    margin: 0 10px;
+}
+
+.dino-bttn,
+.quiz-bttn {
+    font-weight: bold;
+}
+
+.quiz-bttn {
+    background: linear-gradient(to bottom, rgb(97 173 255) 0%, rgb(40 85 155) 100%);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    color: white;
+    padding: 10px 10px;
+    margin-top: 15px;
+    border: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .quiz-bttn:hover {
+        background: linear-gradient(to top, rgb(97 173 255) 0%, rgb(40 85 155) 100%);
+        box-shadow: rgb(0 0 0 / 61%) 0px -1px 4px 0px inset, rgb(0 0 0 / 33%) 0px 5px 3px 0px inset;
+        color: white;
+        padding: 10px 10px;
+        margin-top: 15px;
+        border: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+.dino-bttn {
+    background: linear-gradient(to bottom, rgb(240 73 73) 0%, rgb(143 27 27) 100%);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    color: white;
+    padding: 10px 10px;
+    margin-top: 15px;
+    border: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .dino-bttn:hover {
+        background: linear-gradient(to top, rgb(197 54 54) 0%, rgb(143 24 24) 100%);
+        box-shadow: rgb(0 0 0 / 61%) 0px -1px 4px 0px inset, rgb(0 0 0 / 33%) 0px 5px 3px 0px inset;
+        color: white;
+        padding: 10px 10px;
+        margin-top: 15px;
+        border: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
+    color: red;
+    text-shadow: 0 2px 2px #00000030;
+}
